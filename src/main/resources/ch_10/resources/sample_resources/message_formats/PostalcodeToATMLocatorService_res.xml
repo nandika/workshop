@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ser:ATMLocationResponse xmlns:ser="http://sample.bank.com">
+            <coordinates>
+                <longitude>47.3976809</longitude>
+                <latitude>-111.926368</latitude>
+            </coordinates>
+        </ser:ATMLocationResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
