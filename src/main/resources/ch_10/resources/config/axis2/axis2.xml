@@ -421,7 +421,7 @@
 
     <transportSender name="local" class="org.wso2.carbon.core.transports.local.CarbonLocalTransportSender"/>
 
-    <!--Uncomment this local transport to use local transport in mediation flow-->
+    <!--Uncomment this local transport to use local transport in mediation flow-->web
     <!--<transportSender name="local" class="org.apache.axis2.transport.local.NonBlockingLocalTransportSender"/>-->
 
    <!-- uncomment this and configure to use connection pools for sending messages-->
