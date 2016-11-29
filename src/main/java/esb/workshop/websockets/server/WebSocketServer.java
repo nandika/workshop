@@ -10,7 +10,7 @@ import io.netty.handler.logging.LoggingHandler;
 
 public class WebSocketServer {
 
-    static final int PORT = 8080;
+    static final int PORT = 8082;
 
     public static void main(String[] args) throws Exception {
 
@@ -22,7 +22,7 @@ public class WebSocketServer {
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new WebSocketServerInitializer("/websockets"));
+                    .childHandler(new WebSocketServerInitializer("/websocket"));
 
             Channel ch = b.bind(PORT).sync().channel();
 

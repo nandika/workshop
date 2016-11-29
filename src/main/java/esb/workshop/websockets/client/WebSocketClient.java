@@ -25,12 +25,21 @@ import java.net.URI;
 
 public class WebSocketClient {
 
-//    static final String URL = System.getProperty("url", "ws://127.0.0.1:8080/websocket");
 
 
+// web socket client to web socket server
+    //static final String URL = System.getProperty("url", "ws://127.0.0.1:9091");
+
+// web socket broadcast
+
+    //static final String URL = System.getProperty("url", "ws://127.0.0.1:9093");
+
+// web socket to http
+
+    //static final String URL = System.getProperty("url", "ws://127.0.0.1:9094");
 
 
-    static final String URL = System.getProperty("url", "ws://127.0.0.1:9091");
+    static final String URL = System.getProperty("url", "ws://127.0.0.1:9094");
 
     public static void main(String[] args) throws Exception {
         URI uri = new URI(URL);
